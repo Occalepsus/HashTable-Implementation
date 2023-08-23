@@ -33,5 +33,7 @@ int main() {
 	assert(testTable.contains(30));
 	assert(*testTable.find(30) == 30);
 
+	std::cout << "All tests passed!" << std::endl;
+
 	return 0;
 }
